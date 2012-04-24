@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+div.container div{
+	min-height:300px;
+	
+}
+
+div.header{
+	background-image:url('images/');		
+}
+div.menu{
+	direction:rtl;
+	margin:0 auto;	
+}
+div.menu ul{
+	list-style-type:none;
+	min-width:550px;
+}
+div.menu li{
+	float:left;
+	background-color:#7CB6FC;
+	background-image:url('images/separatorPipe_lists.gif');
+	background-repeat:repeat-y;
+}
+div.menu li:hover > a{
+	color:black;
+}
+div.menu li:first-child{
+	background-image:none;	
+}
+div.menu a{
+	text-decoration:none;
+	padding:7px 15px;
+	display:block;
+	color:white;
+}
+
+/*div.introduction div.mleft7 div.backpic1{
+	background-image:url('images/highlights_bg.png');
+	background-repeat:no-repeat;	
+}*/
+div.banner{
+	margin:40px 0 40px 0;	
+}
+/*div.banner div.left > div > div{
+	direction:rtl;
+}*/
+div.banner div.left div.pic1{
+	background-image:url('images/95_thumb_small.png');	
+	background-repeat:no-repeat;
+	background-position:190px 20px;
+	min-height:100px;
+}
+
+div.banner div.left div.pic2{
+	background-image:url('images/97_thumb_small.png');
+	background-repeat:no-repeat;
+	background-position:190px 20px;
+	min-height:100px;
+}
+div.banner div.left div.pic3{
+	background-image:url('images/96_thumb_small.png');
+	background-repeat:no-repeat;
+	background-position:190px 20px;
+	min-height:100px;
+}
+div.banner div.left div.pic1 div,
+div.banner div.left div.pic2 div,
+div.banner div.left div.pic3 div{
+	min-height:50px;
+	padding-top:40px;
+}
+div.banner div.left div.pic1 div.w3 p,
+div.pic2 div.w3 p,
+div.pic3 div.w3 p{
+	text-align:right;
+}
+
+div.banner div.backpic{
+	background-image:url('images/slider_bg.png');
+	background-repeat:no-repeat;	
+}
+div.banner  div.backpic div.pic{
+	background-image:url('images/12723084776a5ba2720ab5.jpg');
+	background-repeat:no-repeat;
+	background-position:30px 0;	
+}
+
+div.line{
+	min-height:10px !important;	
+	background-image:url('images/separatorHorizontal_dotted.gif');
+	background-repeat:repeat-x;
+	margin-top:100px;
+}
+div.footer{
+	min-height:150px !important;
+	background-image:url('images/background_footer.jpg');
+	background-repeat:repeat-x;	
+}
